@@ -12,7 +12,7 @@ float vel = 1;
 void setup() {
   size(1080, 1080, P2D);
   s = 10;
-  los = width/3;
+  los = width;
   //test = new Tribesman();
   //test = new Tribesman(random(width), random(height), color(255, 0, 0, opacity));
   tribesmen = new Tribesman[n];
@@ -21,11 +21,11 @@ void setup() {
     color tribe = tribes2[int(random(tribes2.length))];
     tribesmen[i] = new Tribesman(random(width), random(height), tribe);
   }
-  background(0);
+  //background(0);
 }
 
 void draw() {
-  //background(0);
+  background(0);
   //test.ctrl(mouseX, mouseY);
   for (Tribesman t : tribesmen) {
     t.update(findAveragePos(tribesmen, t));
