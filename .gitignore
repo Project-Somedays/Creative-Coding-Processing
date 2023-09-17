@@ -10,3 +10,6 @@ application.macosx
 out
 
 tasks.json
+*.tscproj
+*.trec
+*.ai
