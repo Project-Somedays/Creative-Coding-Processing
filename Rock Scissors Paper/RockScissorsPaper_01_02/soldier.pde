@@ -12,6 +12,22 @@ class Soldier {
     army = army_;
   }
 
+  PVector getWrappedPos(WrapDir dir){
+    // search distance if you were to travel North
+    switch(dir){
+      case NORTH:
+        return new PVector(pos.x, pos.y - height);
+      case SOUTH:
+        return new PVector(pos.x, pos.y + height);
+      case EAST:
+        return new PVector(pos.x - width, pos.y);
+      case WEST:
+        return new PVector(pos.x + width, pos.y);
+      default:
+        return pos.copy();
+    }
+  }
+
   void survey() {
     closestPreyPos = findClosest(hunting.get(army), Other.PREY);
     closestPredatorPos = findClosest(huntedBy.get(army), Other.PREDATORS);
@@ -83,17 +99,29 @@ class Soldier {
 
     PVector closestPos = null;
     float minDistance = MAXDISTANCE;
+    float d;
 
     for (Soldier other : otherList) {
-      // if measuring distance to self, start the loop over
+      // if measuring distance to self, skip and start the loop over
       if (pos == other.pos) {
         continue;
       }
-      float d = PVector.dist(pos, other.pos);
+      // direct measure
+      d = PVector.dist(pos, other.pos);
       if (d < minDistance) {
         minDistance = d;
         closestPos = other.pos.copy();
       }
+      // wrap measures
+      for(WrapDir wrapDir : WrapDir.values()){
+        PVector wrappedPos = other.getWrappedPos(wrapDir).copy();
+        d = PVector.dist(pos, wrappedPos);
+        if(d < minDistance){
+          minDistance = d;
+          closestPos = wrappedPos;
+        }
+      }
+
     }
     return closestPos;
   }

@@ -16,11 +16,19 @@ enum Other {
   PREDATORS,
   ALLIES
 }
+
+enum WrapDir{
+  NORTH,
+  SOUTH,
+  EAST,
+  WEST
+}
+
 String sketchname = getClass().getName();
 float MAXDISTANCE;
 float SOLDIERSIZE;
 Soldier[] battlefield;
-int SOLDIERSPERTEAM = 100;
+int SOLDIERSPERTEAM = 150;
 int BATTLEFIELDSIZE;
 Army[] armies = {Army.ROCK, Army.PAPER, Army.SCISSORS};
 ArrayList<Soldier> rocks;
@@ -42,9 +50,9 @@ PImage scissorsIcon;
 
 
 void setup() {
-  size(1080, 1080);
+  size(1000, 1000);
   MAXDISTANCE = width * sqrt(2);
-  SOLDIERSIZE = width / 50;
+  SOLDIERSIZE = width / 75;
   BATTLEFIELDSIZE = SOLDIERSPERTEAM * 3;
   DEATHZONERADIUS = SOLDIERSIZE;
   DANGERZONERADIUS = SOLDIERSIZE * 4;
