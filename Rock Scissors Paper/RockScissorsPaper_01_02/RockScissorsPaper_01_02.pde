@@ -1,5 +1,6 @@
 /*
-In this version, there's no wrapping AND 
+In this version, there IS wrapping and no overlap
+Things can decide whether they want to chase through the wall or not 
  */
 
 import java.util.HashMap;
@@ -68,6 +69,7 @@ void setup() {
 }
 void draw() {
   background(0);
+  // save a thumbnail
   if (frameCount ==  120) {
     saveFrame("../" + sketchname + ".png");
   }

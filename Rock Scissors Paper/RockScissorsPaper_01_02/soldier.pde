@@ -40,8 +40,8 @@ class Soldier {
   void update() {
 
     pos.add(vel);
-    handleBoundaries();
-    //wrap(); // in this version, prey hits a wall
+    // handleBoundaries();
+    wrap(); // in this version, prey hits a wall
     // get eaten
     if (PVector.dist(pos, closestPredatorPos) <= DEATHZONERADIUS) {
       //println("Oooft! " + army.toString() + " is eaten by " + loseTable.get(army).toString());
@@ -111,7 +111,7 @@ class Soldier {
       pos.y = height + SOLDIERSIZE/2;
     }
 
-    if (pos.x > height + SOLDIERSIZE/2) {
+    if (pos.y > height + SOLDIERSIZE/2) {
       pos.y = -SOLDIERSIZE/2;
     }
   }
