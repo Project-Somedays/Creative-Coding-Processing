@@ -28,7 +28,7 @@ String sketchname = getClass().getName();
 float MAXDISTANCE;
 float SOLDIERSIZE;
 Soldier[] battlefield;
-int SOLDIERSPERTEAM = 150;
+int SOLDIERSPERTEAM = 100;
 int BATTLEFIELDSIZE;
 Army[] armies = {Army.ROCK, Army.PAPER, Army.SCISSORS};
 ArrayList<Soldier> rocks;
@@ -50,9 +50,9 @@ PImage scissorsIcon;
 
 
 void setup() {
-  size(1000, 1000);
+  size(1200, 1200);
   MAXDISTANCE = width * sqrt(2);
-  SOLDIERSIZE = width / 75;
+  SOLDIERSIZE = width / 60;
   BATTLEFIELDSIZE = SOLDIERSPERTEAM * 3;
   DEATHZONERADIUS = SOLDIERSIZE;
   DANGERZONERADIUS = SOLDIERSIZE * 4;
