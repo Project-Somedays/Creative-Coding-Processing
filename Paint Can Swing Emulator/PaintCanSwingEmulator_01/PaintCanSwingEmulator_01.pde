@@ -32,8 +32,15 @@ void draw(){
   swingPos += swingRate;
 
   globA += globARate;
-  if (frameCount ==  120) {
+  if (frameCount ==  600) {
     saveFrame("../" + sketchname + ".png");
+  }
+}
+
+void keyPressed(){
+  if(keyCode == ' '){
+    noLoop();
+    saveFrame(sketchname + "_" + year()+"-"+month()+"-"+day()+"_"+hour()+"-"+minute()+"-"+second() + ".png");
   }
 }
 
