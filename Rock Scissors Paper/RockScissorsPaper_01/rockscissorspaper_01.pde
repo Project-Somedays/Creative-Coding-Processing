@@ -63,9 +63,7 @@ void setup() {
 }
 void draw() {
   background(0);
-  if (frameCount ==  120) {
-    saveFrame("../" + sketchname + ".png");
-  }
+  
   populateArmyRosters();
   for (Soldier s : battlefield) {
     s.survey();
@@ -84,6 +82,10 @@ void draw() {
     textAlign(CENTER, CENTER);
     text(end.winningArmy.toString() + " WINS!", width/2, height/2);
     noLoop();
+  }
+  
+  if (frameCount ==  120) {
+    saveFrame("../" + sketchname + ".png");
   }
 }
 
