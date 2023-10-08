@@ -32,7 +32,7 @@ void draw(){
   swingPos += swingRate;
 
   globA += globARate;
-  if (frameCount ==  600) {
+  if (frameCount ==  1500) {
     saveFrame("../" + sketchname + ".png");
   }
 }
@@ -43,4 +43,3 @@ void keyPressed(){
     saveFrame(sketchname + "_" + year()+"-"+month()+"-"+day()+"_"+hour()+"-"+minute()+"-"+second() + ".png");
   }
 }
-
