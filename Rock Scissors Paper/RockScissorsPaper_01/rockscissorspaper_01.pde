@@ -2,7 +2,7 @@
 TODO: If no enemies remain, flee the prey
  TODO: Handle boundaries
  */
-
+String sketchname = getClass().getName();
 import java.util.HashMap;
 
 enum Army {
@@ -63,7 +63,9 @@ void setup() {
 }
 void draw() {
   background(0);
-
+  if (frameCount ==  120) {
+    saveFrame("../" + sketchname + ".png");
+  }
   populateArmyRosters();
   for (Soldier s : battlefield) {
     s.survey();
