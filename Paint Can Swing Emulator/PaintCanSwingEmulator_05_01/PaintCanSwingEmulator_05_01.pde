@@ -10,7 +10,7 @@ String sketchname = getClass().getName();
 float globA = random(TWO_PI);
 float swingPos = 0;
 float ePos;
-float swingRate = 0.017;
+float swingRate = 0.01;
 float globARate = 0.001;
 float eRate = 0.02;
 float rX, rY, rE;

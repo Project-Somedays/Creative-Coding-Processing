@@ -33,8 +33,8 @@ void draw(){
   
   
 
-   squeegee.update();
-   //squeegee.show();
+   //squeegee.update();
+   ////squeegee.show();
 
 
   if (frameCount ==  120) {
@@ -42,12 +42,12 @@ void draw(){
   }
 }
 
-void mouseDragged(){
-  for(Splotch s: splotches){
-    float d = PVector.dist(s.pos, squeegee.c);
-    float a = PVector.sub(squeegee.c, s.pos).heading();
-    if(abs(d*cos(a)) < squeegee.img.width/2 && abs(d*sin(a)) < squeegee.img.height/10){
-      s.update();
-    }
-  }
-}
+//void mouseDragged(){
+//  for(Splotch s: splotches){
+//    float d = PVector.dist(s.pos, squeegee.c);
+//    float a = PVector.sub(squeegee.c, s.pos).heading();
+//    if(abs(d*cos(a)) < squeegee.img.width/2 && abs(d*sin(a)) < squeegee.img.height/10){
+//      s.update();
+//    }
+//  }
+//}
