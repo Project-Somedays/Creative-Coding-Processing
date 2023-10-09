@@ -31,6 +31,10 @@ Creative Coding Projects written in Processing. Mostly in progress.
 <a href = "Streak Art/Streak_Art_02"><img src="Streak Art/Streak_Art_02.png" width="100" alt="Streak Art/Streak_Art_02.png"></a>
 ## [Tilings](Tilings)
 <a href = "Tilings/HexTiling_01"><img src="Tilings/HexTiling_01.png" width="100" alt="Tilings/HexTiling_01.png"></a>
+<a href = "Tilings/HexTiling_02"><img src="Tilings/HexTiling_02.png" width="100" alt="Tilings/HexTiling_02.png"></a>
+<a href = "Tilings/HexTiling_03"><img src="Tilings/HexTiling_03.png" width="100" alt="Tilings/HexTiling_03.png"></a>
+<a href = "Tilings/HexTiling_04"><img src="Tilings/HexTiling_04.png" width="100" alt="Tilings/HexTiling_04.png"></a>
+<a href = "Tilings/HexTiling_05"><img src="Tilings/HexTiling_05.png" width="100" alt="Tilings/HexTiling_05.png"></a>
 <a href = "Tilings/Tilings_01"><img src="Tilings/Tilings_01.png" width="100" alt="Tilings/Tilings_01.png"></a>
 <a href = "Tilings/Tilings_01_01"><img src="Tilings/Tilings_01_01.png" width="100" alt="Tilings/Tilings_01_01.png"></a>
 <a href = "Tilings/Tilings_01_02"><img src="Tilings/Tilings_01_02.png" width="100" alt="Tilings/Tilings_01_02.png"></a>
