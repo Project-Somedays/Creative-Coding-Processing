@@ -15,24 +15,30 @@ class Pendulum{
     theta = 0;
     tension = new PVector(0,0);
     r = l_;
-    //centripetal = new PVector(0,0);
+    centripetal = new PVector(0,0);
     
     
   }
   
   void applyForce(){
     float r = PVector.dist(anchor, pos);
-    float tensionStr = sq(vel.mag())/r + gravity.mag()*cos(theta);
-    tension = PVector.sub(anchor, pos).setMag(tensionStr);
+    //float tensionStr = sq(vel.mag())/r + gravity.mag()*cos(theta);
+    //tension = PVector.sub(anchor, pos).setMag(tensionStr);
+    theta = PVector.angleBetween(anchor, pos);
+    tension = PVector.sub(anchor, pos).setMag(gravStrength*cos(theta));
+    float centripetalForceStrength = gravStrength*sin(theta)*sq(vel.mag())/r;
+    centripetal = PVector.sub(anchor, pos).setMag(centripetalForceStrength);
     acc.add(tension);
+    acc.add(centripetal);
     acc.add(gravity);
   }
   
   void update(){
     theta = PVector.angleBetween(anchor, pos);
+    
+    pos.add(vel);
     applyForce();
     vel.add(acc);
-    pos.add(vel);
     acc.mult(0);
   }
   

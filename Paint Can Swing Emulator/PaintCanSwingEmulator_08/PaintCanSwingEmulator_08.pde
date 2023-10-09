@@ -7,7 +7,7 @@ Firstly, I'll go in the xz plane to see it's working properly
 String sketchname = getClass().getName();
 PVector gravity;
 Pendulum pend;
-float gravStrength = 1;
+float gravStrength = .05;
 
 
 // color[] colours = {#1f2041, #4b3f72, #417b5a, #d0ceba, #e9d2c0};
@@ -21,7 +21,7 @@ void setup() {
   fill(255);
   stroke(255);
   strokeWeight(5);
-  gravity = new PVector(0,0.1);
+  gravity = new PVector(0,gravStrength);
   pend = new Pendulum(width/2, height/4, 0.6*height, QUARTER_PI);
   textAlign(CENTER, CENTER);
   textSize(20);
