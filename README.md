@@ -18,6 +18,7 @@ Creative Coding Projects written in Processing. Mostly in progress.
 <a href = "Paint Can Swing Emulator/PaintCanSwingEmulator_08"><img src="Paint Can Swing Emulator/PaintCanSwingEmulator_08.png" width="100" alt="Paint Can Swing Emulator/PaintCanSwingEmulator_08.png"></a>
 <a href = "Paint Can Swing Emulator/PaintCanSwingEmulator_08_01"><img src="Paint Can Swing Emulator/PaintCanSwingEmulator_08_01.png" width="100" alt="Paint Can Swing Emulator/PaintCanSwingEmulator_08_01.png"></a>
 ## [Periodic Motion Study](Periodic%20Motion%20Study)
+<a href = "Periodic Motion Study/Fronds"><img src="Periodic Motion Study/Fronds.png" width="100" alt="Periodic Motion Study/Fronds.png"></a>
 <a href = "Periodic Motion Study/HexOffset"><img src="Periodic Motion Study/HexOffset.png" width="100" alt="Periodic Motion Study/HexOffset.png"></a>
 <a href = "Periodic Motion Study/OffsetSpirals"><img src="Periodic Motion Study/OffsetSpirals.png" width="100" alt="Periodic Motion Study/OffsetSpirals.png"></a>
 ## [Perlin Noise Circle](Perlin%20Noise%20Circle)
