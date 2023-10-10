@@ -46,4 +46,7 @@ void keyPressed(){
   if(keyCode == ENTER){
     loop();
   }
+  if(keyCode == ' '){
+    saveFrame("../"+ getClass().getName() + ".png");
+  }
 }
