@@ -45,10 +45,10 @@ class Soldier {
       return;
     }
 
-    if (allyDist < SOLDIERSIZE/2) {
-      vel = PVector.sub(pos, closestAllyPos).setMag(chaseSpeed);
-      return;
-    }
+    //if (allyDist < SOLDIERSIZE/2) {
+    //  vel = PVector.sub(pos, closestAllyPos).setMag(chaseSpeed);
+    //  return;
+    //}
 
     vel = PVector.sub(closestPreyPos, pos).setMag(chaseSpeed);
   }
@@ -67,25 +67,16 @@ class Soldier {
   }
 
   void show() {
-    //stroke(255, 0, 0);
-    //ellipse(pos.x, pos.y, DEATHZONERADIUS, DEATHZONERADIUS);
-    //stroke(255, 255, 0);
-    //ellipse(pos.x, pos.y, DANGERZONERADIUS, DANGERZONERADIUS);
-    //image(imageMap.get(army), pos.x-SOLDIERSIZE/2, pos.y - SOLDIERSIZE/2, SOLDIERSIZE, SOLDIERSIZE);
-    // #1Aed6a5a, #1Af4f1bb, #1A9bc1bc
-    //#0D1Aed6a5a, #0D1Af4f1bb, #0D1A9bc1bc
-    //   colourMap.put(Army.ROCK, #1Aed6a5a);
-    //colourMap.put(Army.PAPER, #1Af4f1bb);
-    //colourMap.put(Army.SCISSORS, #1A9bc1bc);
+
     switch(army) {
       case ROCK:
-        fill(#0Ded6a5a);
+        fill(colours[0]);
         break;
       case PAPER:
-        fill(#0Df4f1bb);
+        fill(colours[1]);
         break;
       case SCISSORS:
-        fill(#0D9bc1bc);
+        fill(colours[2]);
         break;
       default:
         fill(0);

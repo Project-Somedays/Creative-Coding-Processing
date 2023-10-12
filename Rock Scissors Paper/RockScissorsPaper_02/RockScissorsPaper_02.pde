@@ -27,7 +27,7 @@ String sketchname = getClass().getName();
 float MAXDISTANCE;
 float SOLDIERSIZE;
 Soldier[] battlefield;
-int SOLDIERSPERTEAM = 100;
+int SOLDIERSPERTEAM = 75;
 int BATTLEFIELDSIZE;
 Army[] armies = {Army.ROCK, Army.PAPER, Army.SCISSORS};
 ArrayList<Soldier> rocks;
@@ -39,6 +39,8 @@ HashMap<Army, ArrayList<Soldier>> rosters;
 HashMap<Army, Army> winTable;
 HashMap<Army, Army> loseTable;
 HashMap<Army, PImage> imageMap;
+//color[] colours = {#0D540d6e, #0Dee4266, #0Dffd23f};
+color[] colours = {#051d2f6f, #058390fa, #05fac748};
 
 float DANGERZONERADIUS;
 float DEATHZONERADIUS;
@@ -53,7 +55,7 @@ void setup() {
   size(1000, 1000);
   noStroke();
   MAXDISTANCE = width * sqrt(2);
-  SOLDIERSIZE = width / 60;
+  SOLDIERSIZE = width / 80;
   BATTLEFIELDSIZE = SOLDIERSPERTEAM * 3;
   DEATHZONERADIUS = SOLDIERSIZE;
   DANGERZONERADIUS = SOLDIERSIZE * 4;
@@ -94,9 +96,9 @@ void draw() {
     s.show();
   }
 
-  text("Rocks: " + str(rocks.size()), 0, height - 50);
-  text("Paper: " + str(paper.size()), 0, height - 30);
-  text("Scissors: " + str(scissors.size()), 0, height - 10);
+  //text("Rocks: " + str(rocks.size()), 0, height - 50);
+  //text("Paper: " + str(paper.size()), 0, height - 30);
+  //text("Scissors: " + str(scissors.size()), 0, height - 10);
 
   EndState end = evalGameOver();
   if (end.gameIsOver) {
