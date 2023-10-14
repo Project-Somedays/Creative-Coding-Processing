@@ -3,7 +3,7 @@ Author: ProjectSomedays
 Experimenting with transparency and just randomly generating points
 */
 Particle[] swarm;
-int n = 100;
+int n = 80;
 float nodeS = 10;
 float los;
 // auto thumbnail generation script: https://timrodenbroeker.de/courses/sketching-with-code/thumbnails/
