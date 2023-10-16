@@ -10,6 +10,7 @@ Creative Coding Projects written in Processing. Mostly in progress.
 <a href = "Nearest_Neighbour_Study/Nearest_Neighbour_Study_02"><img src="Nearest_Neighbour_Study/Nearest_Neighbour_Study_02.png" width="100" alt="Nearest_Neighbour_Study/Nearest_Neighbour_Study_02.png"></a>
 <a href = "Nearest_Neighbour_Study/Nearest_Neighbour_Study_02_01"><img src="Nearest_Neighbour_Study/Nearest_Neighbour_Study_02_01.png" width="100" alt="Nearest_Neighbour_Study/Nearest_Neighbour_Study_02_01.png"></a>
 <a href = "Nearest_Neighbour_Study/Nearest_Neighbour_Study_02_02"><img src="Nearest_Neighbour_Study/Nearest_Neighbour_Study_02_02.png" width="100" alt="Nearest_Neighbour_Study/Nearest_Neighbour_Study_02_02.png"></a>
+<a href = "Nearest_Neighbour_Study/Nearest_Neighbour_Study_03"><img src="Nearest_Neighbour_Study/Nearest_Neighbour_Study_03.png" width="100" alt="Nearest_Neighbour_Study/Nearest_Neighbour_Study_03.png"></a>
 ## [Nuclear Reactor Sim](Nuclear%20Reactor%20Sim)
 <a href = "Nuclear Reactor Sim/Nuclear_Reactor_Sim_01"><img src="Nuclear Reactor Sim/Nuclear_Reactor_Sim_01.png" width="100" alt="Nuclear Reactor Sim/Nuclear_Reactor_Sim_01.png"></a>
 ## [Paint Can Swing Emulator](Paint%20Can%20Swing%20Emulator)
@@ -27,8 +28,9 @@ Creative Coding Projects written in Processing. Mostly in progress.
 <a href = "Periodic Motion Study/Fronds"><img src="Periodic Motion Study/Fronds.png" width="100" alt="Periodic Motion Study/Fronds.png"></a>
 <a href = "Periodic Motion Study/HexOffset"><img src="Periodic Motion Study/HexOffset.png" width="100" alt="Periodic Motion Study/HexOffset.png"></a>
 <a href = "Periodic Motion Study/OffsetSpirals"><img src="Periodic Motion Study/OffsetSpirals.png" width="100" alt="Periodic Motion Study/OffsetSpirals.png"></a>
-## [Perlin Noise Circle](Perlin%20Noise%20Circle)
-<a href = "Perlin Noise Circle/Perlin_Noise_Circle_01"><img src="Perlin Noise Circle/Perlin_Noise_Circle_01.png" width="100" alt="Perlin Noise Circle/Perlin_Noise_Circle_01.png"></a>
+## [Perlin Noise Study](Perlin%20Noise%20Study)
+<a href = "Perlin Noise Study/Perlin_Noise_Study_01"><img src="Perlin Noise Study/Perlin_Noise_Study_01.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_01.png"></a>
+<a href = "Perlin Noise Study/Perlin_Noise_Study_02"><img src="Perlin Noise Study/Perlin_Noise_Study_02.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_02.png"></a>
 ## [Rock Scissors Paper](Rock%20Scissors%20Paper)
 <a href = "Rock Scissors Paper/RockScissorsPaper_01"><img src="Rock Scissors Paper/RockScissorsPaper_01.png" width="100" alt="Rock Scissors Paper/RockScissorsPaper_01.png"></a>
 <a href = "Rock Scissors Paper/RockScissorsPaper_01_01"><img src="Rock Scissors Paper/RockScissorsPaper_01_01.png" width="100" alt="Rock Scissors Paper/RockScissorsPaper_01_01.png"></a>
