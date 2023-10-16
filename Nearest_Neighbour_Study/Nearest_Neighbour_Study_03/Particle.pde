@@ -2,8 +2,8 @@ class Particle{
   PVector pos;
   PVector vel;
   
-  Particle(float x, float y){
-    pos = new PVector(x,y);
+  Particle(float x, float y, float z){
+    pos = new PVector(x, y, z);
     //vel = PVector.random2D();
     //vel = PVector.fromAngle(HALF_PI/2);
     //vel = PVector.sub(new PVector(width, height), pos).setMag(2);
@@ -24,9 +24,16 @@ class Particle{
     if(pos.y < 0 || pos.y > height){
       vel.y = -vel.y;
     }
+    
+    if(pos.z < 0 || pos.z > width){
+      vel.z = -vel.z;
+    }
   }
   
   void show(){
-    ellipse(pos.x, pos.y, nodeS, nodeS);
+    pushMatrix();
+      translate(pos.x, pos.y, pos.z);
+      sphere(nodeS);
+    popMatrix();
   }
 }
