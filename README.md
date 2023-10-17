@@ -31,6 +31,7 @@ Creative Coding Projects written in Processing. Mostly in progress.
 ## [Perlin Noise Study](Perlin%20Noise%20Study)
 <a href = "Perlin Noise Study/Perlin_Noise_Study_01"><img src="Perlin Noise Study/Perlin_Noise_Study_01.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_01.png"></a>
 <a href = "Perlin Noise Study/Perlin_Noise_Study_02"><img src="Perlin Noise Study/Perlin_Noise_Study_02.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_02.png"></a>
+<a href = "Perlin Noise Study/Perlin_Noise_Study_02_01"><img src="Perlin Noise Study/Perlin_Noise_Study_02_01.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_02_01.png"></a>
 ## [Rock Scissors Paper](Rock%20Scissors%20Paper)
 <a href = "Rock Scissors Paper/RockScissorsPaper_01"><img src="Rock Scissors Paper/RockScissorsPaper_01.png" width="100" alt="Rock Scissors Paper/RockScissorsPaper_01.png"></a>
 <a href = "Rock Scissors Paper/RockScissorsPaper_01_01"><img src="Rock Scissors Paper/RockScissorsPaper_01_01.png" width="100" alt="Rock Scissors Paper/RockScissorsPaper_01_01.png"></a>
