@@ -16,7 +16,7 @@ void setup() {
   aSeed = random(10000);
   aOffset = aSeed;
   rOffset = rSeed;
-  aInc = 0.003;
+  aInc = 0.002;
   rInc = 0.003;
   background(0);
   
@@ -51,7 +51,7 @@ void draw() {
     }
   }
   
-  if (frameCount ==  600) {
+  if (frameCount ==  1200) {
     saveFrame("../" + sketchname + ".png");
   }
 }
