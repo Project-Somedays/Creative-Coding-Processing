@@ -1,6 +1,7 @@
 /*
 Author: ProjectSomedays
 Experimenting with making the brush a spiral pattern of particles
+Now it's like they are bugs floating around a lantern. Getting shocked sends them to a firey grave.
 */
 Particle[] swarm;
 Electrode[] electrodes;
@@ -12,6 +13,11 @@ float nodeS = 10;
 float los;
 // auto thumbnail generation script: https://timrodenbroeker.de/courses/sketching-with-code/thumbnails/
 String sketchname = getClass().getName();
+PVector gravity;
+float gravStrength = 0.1;
+int trailFadeRate = 1;
+int trailFadeDelta = 120;
+
 
 void setup(){
     size(1000,1000);
@@ -27,6 +33,8 @@ void setup(){
     fill(255);
     stroke(255,100);
     strokeWeight(3);
+    gravity = new PVector(0, gravStrength);
+
 }
 
 void draw(){
@@ -39,7 +47,7 @@ void draw(){
   fill(255);
   for(Electrode e : electrodes){
     e.update();
-    e.show();
+    //e.show();
   }
   stroke(255);
   drawConnections();
@@ -58,11 +66,13 @@ void drawConnections(){
       stroke(255, 200);
       if(d < los){
         line(e.pos.x, e.pos.y, p.pos.x, p.pos.y);
+        p.kill();
         // now see if we get a secondary connection
         stroke(255,100);
         for(int i = 0; i < swarm.length; i++){
           if(PVector.dist(p.pos, swarm[i].pos) <  los*0.75){
             line(p.pos.x, p.pos.y, swarm[i].pos.x, swarm[i].pos.y);
+            swarm[i].kill();
           } 
         }
       }
