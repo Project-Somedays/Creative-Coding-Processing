@@ -1,6 +1,7 @@
 /*
 Author: ProjectSomedays
 Particles move with Perlin Noise
+Electrodes move with Perline Noise
 */
 Particle[] swarm;
 Electrode[] electrodes;
