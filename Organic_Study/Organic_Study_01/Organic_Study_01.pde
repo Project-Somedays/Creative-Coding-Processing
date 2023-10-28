@@ -1,9 +1,14 @@
 // auto thumbnail generation script: https://timrodenbroeker.de/courses/sketching-with-code/thumbnails/
 //I want to mimic a lava lamp. First step is getting two objects to seamlessly form
+import java.util.Collections;
+import java.util.Comparator;
+
+
 String sketchname = getClass().getName();
-int res = 25;
+int res = 40;
 ArrayList<PVector> globPts;
 int blobCount = 2;
+PVector centre;
 
 Blob[] blobs;
 float globA = 0;
@@ -12,9 +17,10 @@ void setup() {
   size(1080, 1080);
   blobs = new Blob[blobCount];
   blobs[0] = new Blob(0, 0, 0.25*width, 0);
-  blobs[1] = new Blob(0, 0, 0.25*width, PI);
+  blobs[1] = new Blob(0, 0, 0.2*width, PI);
   globPts = new ArrayList<>();
   noStroke();
+  centre = new PVector(width/2, height/2);
 }
 
 void draw() {
@@ -23,7 +29,7 @@ void draw() {
     b.update();
     //b.show();
   }
-  
+
   globPts = new ArrayList<PVector>();
 
   // starting with the rightmost point
@@ -59,15 +65,25 @@ void draw() {
       }
     }
   }
-  
+
+  sortPointsByPolar(globPts);
+  if (globPts.size() > 3) {
+    globPts.add(globPts.get(0));
+    globPts.add(globPts.get(1));
+    globPts.add(globPts.get(2));
+  }
+
 
   beginShape();
-  for(PVector p : globPts){
-    vertex(p.x, p.y);
+  for (PVector p : globPts) {
+    curveVertex(p.x, p.y);
+    ellipse(p.x, p.y, 5, 5);
   }
   endShape();
 
-  globA += 0.01;
+
+
+  globA += 0.005;
 
 
   if (frameCount ==  120) {
@@ -79,5 +95,36 @@ void keyPressed() {
   if (keyCode == ' ') {
     noLoop();
     saveFrame(sketchname + "_" + year()+"-"+month()+"-"+day()+"_"+hour()+"-"+minute()+"-"+second() + ".png");
+  }
+}
+
+void sortPointsByPolar(ArrayList<PVector> points) {
+  Collections.sort(points, new PolarComparator());
+}
+
+class PolarComparator implements Comparator<PVector> {
+  @Override
+    public int compare(PVector a, PVector b) {
+    float angleA = atan2(a.y - height / 2, a.x - width / 2);
+    float angleB = atan2(b.y - height / 2, b.x - width / 2);
+
+    // Compare angles
+    if (angleA < angleB) {
+      return -1;
+    } else if (angleA > angleB) {
+      return 1;
+    } else {
+      // If angles are equal, compare distances
+      float distA = dist(a.x, a.y, width / 2, height / 2);
+      float distB = dist(b.x, b.y, width / 2, height / 2);
+
+      if (distA < distB) {
+        return -1;
+      } else if (distA > distB) {
+        return 1;
+      } else {
+        return 0;
+      }
+    }
   }
 }
