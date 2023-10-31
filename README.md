@@ -4,20 +4,22 @@ Creative Coding Projects written in Processing. Mostly in progress.
 <a href = "AltLines/AltLines_01"><img src="AltLines/AltLines_01.png" width="100" alt="AltLines/AltLines_01.png"></a>
 ## [Geometrical_Study](Geometrical_Study)
 <a href = "Geometrical_Study/Geometrical_Study_01"><img src="Geometrical_Study/Geometrical_Study_01.png" width="100" alt="Geometrical_Study/Geometrical_Study_01.png"></a>
+<a href = "Geometrical_Study/PinWheel"><img src="Geometrical_Study/PinWheel.png" width="100" alt="Geometrical_Study/PinWheel.png"></a>
 ## [IK Walker](IK%20Walker)
 <a href = "IK Walker/IKWalker_01"><img src="IK Walker/IKWalker_01.png" width="100" alt="IK Walker/IKWalker_01.png"></a>
-## [Nearest_Neighbour_Study](Nearest_Neighbour_Study)
-<a href = "Nearest_Neighbour_Study/Nearest_Neighbour_Study_01"><img src="Nearest_Neighbour_Study/Nearest_Neighbour_Study_01.png" width="100" alt="Nearest_Neighbour_Study/Nearest_Neighbour_Study_01.png"></a>
-<a href = "Nearest_Neighbour_Study/Nearest_Neighbour_Study_01_01"><img src="Nearest_Neighbour_Study/Nearest_Neighbour_Study_01_01.png" width="100" alt="Nearest_Neighbour_Study/Nearest_Neighbour_Study_01_01.png"></a>
-<a href = "Nearest_Neighbour_Study/Nearest_Neighbour_Study_02"><img src="Nearest_Neighbour_Study/Nearest_Neighbour_Study_02.png" width="100" alt="Nearest_Neighbour_Study/Nearest_Neighbour_Study_02.png"></a>
-<a href = "Nearest_Neighbour_Study/Nearest_Neighbour_Study_02_01"><img src="Nearest_Neighbour_Study/Nearest_Neighbour_Study_02_01.png" width="100" alt="Nearest_Neighbour_Study/Nearest_Neighbour_Study_02_01.png"></a>
-<a href = "Nearest_Neighbour_Study/Nearest_Neighbour_Study_02_02"><img src="Nearest_Neighbour_Study/Nearest_Neighbour_Study_02_02.png" width="100" alt="Nearest_Neighbour_Study/Nearest_Neighbour_Study_02_02.png"></a>
-<a href = "Nearest_Neighbour_Study/Nearest_Neighbour_Study_03"><img src="Nearest_Neighbour_Study/Nearest_Neighbour_Study_03.png" width="100" alt="Nearest_Neighbour_Study/Nearest_Neighbour_Study_03.png"></a>
-<a href = "Nearest_Neighbour_Study/Nearest_Neighbour_Study_04"><img src="Nearest_Neighbour_Study/Nearest_Neighbour_Study_04.png" width="100" alt="Nearest_Neighbour_Study/Nearest_Neighbour_Study_04.png"></a>
-<a href = "Nearest_Neighbour_Study/Nearest_Neighbour_Study_04_01"><img src="Nearest_Neighbour_Study/Nearest_Neighbour_Study_04_01.png" width="100" alt="Nearest_Neighbour_Study/Nearest_Neighbour_Study_04_01.png"></a>
-<a href = "Nearest_Neighbour_Study/Nearest_Neighbour_Study_04_02"><img src="Nearest_Neighbour_Study/Nearest_Neighbour_Study_04_02.png" width="100" alt="Nearest_Neighbour_Study/Nearest_Neighbour_Study_04_02.png"></a>
-<a href = "Nearest_Neighbour_Study/Nearest_Neighbour_Study_04_03"><img src="Nearest_Neighbour_Study/Nearest_Neighbour_Study_04_03.png" width="100" alt="Nearest_Neighbour_Study/Nearest_Neighbour_Study_04_03.png"></a>
-<a href = "Nearest_Neighbour_Study/RadialSymmetrySectorBounce_01"><img src="Nearest_Neighbour_Study/RadialSymmetrySectorBounce_01.png" width="100" alt="Nearest_Neighbour_Study/RadialSymmetrySectorBounce_01.png"></a>
+## [Nearest Neighbour Study](Nearest%20Neighbour%20Study)
+<a href = "Nearest Neighbour Study/Nearest_Neighbour_Study_01"><img src="Nearest Neighbour Study/Nearest_Neighbour_Study_01.png" width="100" alt="Nearest Neighbour Study/Nearest_Neighbour_Study_01.png"></a>
+<a href = "Nearest Neighbour Study/Nearest_Neighbour_Study_01_01"><img src="Nearest Neighbour Study/Nearest_Neighbour_Study_01_01.png" width="100" alt="Nearest Neighbour Study/Nearest_Neighbour_Study_01_01.png"></a>
+<a href = "Nearest Neighbour Study/Nearest_Neighbour_Study_02"><img src="Nearest Neighbour Study/Nearest_Neighbour_Study_02.png" width="100" alt="Nearest Neighbour Study/Nearest_Neighbour_Study_02.png"></a>
+<a href = "Nearest Neighbour Study/Nearest_Neighbour_Study_02_01"><img src="Nearest Neighbour Study/Nearest_Neighbour_Study_02_01.png" width="100" alt="Nearest Neighbour Study/Nearest_Neighbour_Study_02_01.png"></a>
+<a href = "Nearest Neighbour Study/Nearest_Neighbour_Study_02_02"><img src="Nearest Neighbour Study/Nearest_Neighbour_Study_02_02.png" width="100" alt="Nearest Neighbour Study/Nearest_Neighbour_Study_02_02.png"></a>
+<a href = "Nearest Neighbour Study/Nearest_Neighbour_Study_03"><img src="Nearest Neighbour Study/Nearest_Neighbour_Study_03.png" width="100" alt="Nearest Neighbour Study/Nearest_Neighbour_Study_03.png"></a>
+<a href = "Nearest Neighbour Study/Nearest_Neighbour_Study_04"><img src="Nearest Neighbour Study/Nearest_Neighbour_Study_04.png" width="100" alt="Nearest Neighbour Study/Nearest_Neighbour_Study_04.png"></a>
+<a href = "Nearest Neighbour Study/Nearest_Neighbour_Study_04_01"><img src="Nearest Neighbour Study/Nearest_Neighbour_Study_04_01.png" width="100" alt="Nearest Neighbour Study/Nearest_Neighbour_Study_04_01.png"></a>
+<a href = "Nearest Neighbour Study/Nearest_Neighbour_Study_04_02"><img src="Nearest Neighbour Study/Nearest_Neighbour_Study_04_02.png" width="100" alt="Nearest Neighbour Study/Nearest_Neighbour_Study_04_02.png"></a>
+<a href = "Nearest Neighbour Study/Nearest_Neighbour_Study_04_03"><img src="Nearest Neighbour Study/Nearest_Neighbour_Study_04_03.png" width="100" alt="Nearest Neighbour Study/Nearest_Neighbour_Study_04_03.png"></a>
+<a href = "Nearest Neighbour Study/PerlinNoiseMover"><img src="Nearest Neighbour Study/PerlinNoiseMover.png" width="100" alt="Nearest Neighbour Study/PerlinNoiseMover.png"></a>
+<a href = "Nearest Neighbour Study/RadialSymmetrySectorBounce_01"><img src="Nearest Neighbour Study/RadialSymmetrySectorBounce_01.png" width="100" alt="Nearest Neighbour Study/RadialSymmetrySectorBounce_01.png"></a>
 ## [Nuclear Reactor Sim](Nuclear%20Reactor%20Sim)
 <a href = "Nuclear Reactor Sim/Nuclear_Reactor_Sim_01"><img src="Nuclear Reactor Sim/Nuclear_Reactor_Sim_01.png" width="100" alt="Nuclear Reactor Sim/Nuclear_Reactor_Sim_01.png"></a>
 ## [Organic_Study](Organic_Study)
@@ -36,6 +38,7 @@ Creative Coding Projects written in Processing. Mostly in progress.
 <a href = "Paint Can Swing Emulator/PaintCanSwingEmulator_08_01"><img src="Paint Can Swing Emulator/PaintCanSwingEmulator_08_01.png" width="100" alt="Paint Can Swing Emulator/PaintCanSwingEmulator_08_01.png"></a>
 ## [Periodic Motion Study](Periodic%20Motion%20Study)
 <a href = "Periodic Motion Study/CircularPeriodicPatterns"><img src="Periodic Motion Study/CircularPeriodicPatterns.png" width="100" alt="Periodic Motion Study/CircularPeriodicPatterns.png"></a>
+<a href = "Periodic Motion Study/EndlessCircularZoom"><img src="Periodic Motion Study/EndlessCircularZoom.png" width="100" alt="Periodic Motion Study/EndlessCircularZoom.png"></a>
 <a href = "Periodic Motion Study/Fronds"><img src="Periodic Motion Study/Fronds.png" width="100" alt="Periodic Motion Study/Fronds.png"></a>
 <a href = "Periodic Motion Study/HexOffset"><img src="Periodic Motion Study/HexOffset.png" width="100" alt="Periodic Motion Study/HexOffset.png"></a>
 <a href = "Periodic Motion Study/OffsetSpirals"><img src="Periodic Motion Study/OffsetSpirals.png" width="100" alt="Periodic Motion Study/OffsetSpirals.png"></a>
@@ -43,6 +46,11 @@ Creative Coding Projects written in Processing. Mostly in progress.
 <a href = "Perlin Noise Study/Perlin_Noise_Study_01"><img src="Perlin Noise Study/Perlin_Noise_Study_01.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_01.png"></a>
 <a href = "Perlin Noise Study/Perlin_Noise_Study_02"><img src="Perlin Noise Study/Perlin_Noise_Study_02.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_02.png"></a>
 <a href = "Perlin Noise Study/Perlin_Noise_Study_02_01"><img src="Perlin Noise Study/Perlin_Noise_Study_02_01.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_02_01.png"></a>
+<a href = "Perlin Noise Study/Perlin_Noise_Study_FlowFields_01"><img src="Perlin Noise Study/Perlin_Noise_Study_FlowFields_01.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_FlowFields_01.png"></a>
+<a href = "Perlin Noise Study/Perlin_Noise_Study_Wrapping1D"><img src="Perlin Noise Study/Perlin_Noise_Study_Wrapping1D.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_Wrapping1D.png"></a>
+## [Reverse Engineering Study](Reverse%20Engineering%20Study)
+<a href = "Reverse Engineering Study/HexStack"><img src="Reverse Engineering Study/HexStack.png" width="100" alt="Reverse Engineering Study/HexStack.png"></a>
+<a href = "Reverse Engineering Study/Reverse_Engineering_Study_01"><img src="Reverse Engineering Study/Reverse_Engineering_Study_01.png" width="100" alt="Reverse Engineering Study/Reverse_Engineering_Study_01.png"></a>
 ## [Rock Scissors Paper](Rock%20Scissors%20Paper)
 <a href = "Rock Scissors Paper/RockScissorsPaper_01"><img src="Rock Scissors Paper/RockScissorsPaper_01.png" width="100" alt="Rock Scissors Paper/RockScissorsPaper_01.png"></a>
 <a href = "Rock Scissors Paper/RockScissorsPaper_01_01"><img src="Rock Scissors Paper/RockScissorsPaper_01_01.png" width="100" alt="Rock Scissors Paper/RockScissorsPaper_01_01.png"></a>
