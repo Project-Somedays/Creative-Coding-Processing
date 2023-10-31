@@ -2,6 +2,8 @@
 Creative Coding Projects written in Processing. Mostly in progress.
 ## [AltLines](AltLines)
 <a href = "AltLines/AltLines_01"><img src="AltLines/AltLines_01.png" width="100" alt="AltLines/AltLines_01.png"></a>
+## [Geometrical_Study](Geometrical_Study)
+<a href = "Geometrical_Study/Geometrical_Study_01"><img src="Geometrical_Study/Geometrical_Study_01.png" width="100" alt="Geometrical_Study/Geometrical_Study_01.png"></a>
 ## [IK Walker](IK%20Walker)
 <a href = "IK Walker/IKWalker_01"><img src="IK Walker/IKWalker_01.png" width="100" alt="IK Walker/IKWalker_01.png"></a>
 ## [Nearest_Neighbour_Study](Nearest_Neighbour_Study)
