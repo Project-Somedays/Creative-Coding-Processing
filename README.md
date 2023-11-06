@@ -25,6 +25,9 @@ Creative Coding Projects written in Processing. Mostly in progress.
 ## [Organic_Study](Organic_Study)
 <a href = "Organic_Study/Organic_Study_01"><img src="Organic_Study/Organic_Study_01.png" width="100" alt="Organic_Study/Organic_Study_01.png"></a>
 <a href = "Organic_Study/Organic_Study_01_01"><img src="Organic_Study/Organic_Study_01_01.png" width="100" alt="Organic_Study/Organic_Study_01_01.png"></a>
+## [Packing_Algorithm_Study](Packing_Algorithm_Study)
+<a href = "Packing_Algorithm_Study/Packing_Algorithm_Study_01"><img src="Packing_Algorithm_Study/Packing_Algorithm_Study_01.png" width="100" alt="Packing_Algorithm_Study/Packing_Algorithm_Study_01.png"></a>
+<a href = "Packing_Algorithm_Study/Packing_Algorithm_Study_02"><img src="Packing_Algorithm_Study/Packing_Algorithm_Study_02.png" width="100" alt="Packing_Algorithm_Study/Packing_Algorithm_Study_02.png"></a>
 ## [Paint Can Swing Emulator](Paint%20Can%20Swing%20Emulator)
 <a href = "Paint Can Swing Emulator/PaintCanSwingEmulator_01"><img src="Paint Can Swing Emulator/PaintCanSwingEmulator_01.png" width="100" alt="Paint Can Swing Emulator/PaintCanSwingEmulator_01.png"></a>
 <a href = "Paint Can Swing Emulator/PaintCanSwingEmulator_02"><img src="Paint Can Swing Emulator/PaintCanSwingEmulator_02.png" width="100" alt="Paint Can Swing Emulator/PaintCanSwingEmulator_02.png"></a>
