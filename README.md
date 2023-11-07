@@ -25,11 +25,11 @@ Creative Coding Projects written in Processing. Mostly in progress.
 ## [Organic_Study](Organic_Study)
 <a href = "Organic_Study/Organic_Study_01"><img src="Organic_Study/Organic_Study_01.png" width="100" alt="Organic_Study/Organic_Study_01.png"></a>
 <a href = "Organic_Study/Organic_Study_01_01"><img src="Organic_Study/Organic_Study_01_01.png" width="100" alt="Organic_Study/Organic_Study_01_01.png"></a>
-## [Packing_Algorithm_Study](Packing_Algorithm_Study)
-<a href = "Packing_Algorithm_Study/Packing_Algorithm_Study_01"><img src="Packing_Algorithm_Study/Packing_Algorithm_Study_01.png" width="100" alt="Packing_Algorithm_Study/Packing_Algorithm_Study_01.png"></a>
-<a href = "Packing_Algorithm_Study/Packing_Algorithm_Study_01_01"><img src="Packing_Algorithm_Study/Packing_Algorithm_Study_01_01.png" width="100" alt="Packing_Algorithm_Study/Packing_Algorithm_Study_01_01.png"></a>
-<a href = "Packing_Algorithm_Study/Packing_Algorithm_Study_02"><img src="Packing_Algorithm_Study/Packing_Algorithm_Study_02.png" width="100" alt="Packing_Algorithm_Study/Packing_Algorithm_Study_02.png"></a>
-<a href = "Packing_Algorithm_Study/Packing_Algorithm_Study_02_01"><img src="Packing_Algorithm_Study/Packing_Algorithm_Study_02_01.png" width="100" alt="Packing_Algorithm_Study/Packing_Algorithm_Study_02_01.png"></a>
+## [Packing Algorithm Study](Packing%20Algorithm%20Study)
+<a href = "Packing Algorithm Study/Packing_Algorithm_Study_01"><img src="Packing Algorithm Study/Packing_Algorithm_Study_01.png" width="100" alt="Packing Algorithm Study/Packing_Algorithm_Study_01.png"></a>
+<a href = "Packing Algorithm Study/Packing_Algorithm_Study_01_01"><img src="Packing Algorithm Study/Packing_Algorithm_Study_01_01.png" width="100" alt="Packing Algorithm Study/Packing_Algorithm_Study_01_01.png"></a>
+<a href = "Packing Algorithm Study/Packing_Algorithm_Study_02"><img src="Packing Algorithm Study/Packing_Algorithm_Study_02.png" width="100" alt="Packing Algorithm Study/Packing_Algorithm_Study_02.png"></a>
+<a href = "Packing Algorithm Study/Packing_Algorithm_Study_02_01"><img src="Packing Algorithm Study/Packing_Algorithm_Study_02_01.png" width="100" alt="Packing Algorithm Study/Packing_Algorithm_Study_02_01.png"></a>
 ## [Paint Can Swing Emulator](Paint%20Can%20Swing%20Emulator)
 <a href = "Paint Can Swing Emulator/PaintCanSwingEmulator_01"><img src="Paint Can Swing Emulator/PaintCanSwingEmulator_01.png" width="100" alt="Paint Can Swing Emulator/PaintCanSwingEmulator_01.png"></a>
 <a href = "Paint Can Swing Emulator/PaintCanSwingEmulator_02"><img src="Paint Can Swing Emulator/PaintCanSwingEmulator_02.png" width="100" alt="Paint Can Swing Emulator/PaintCanSwingEmulator_02.png"></a>
@@ -55,7 +55,6 @@ Creative Coding Projects written in Processing. Mostly in progress.
 <a href = "Perlin Noise Study/Perlin_Noise_Study_Wrapping1D"><img src="Perlin Noise Study/Perlin_Noise_Study_Wrapping1D.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_Wrapping1D.png"></a>
 ## [Reverse Engineering Study](Reverse%20Engineering%20Study)
 <a href = "Reverse Engineering Study/HexStack"><img src="Reverse Engineering Study/HexStack.png" width="100" alt="Reverse Engineering Study/HexStack.png"></a>
-<a href = "Reverse Engineering Study/Reverse_Engineering_Study_01"><img src="Reverse Engineering Study/Reverse_Engineering_Study_01.png" width="100" alt="Reverse Engineering Study/Reverse_Engineering_Study_01.png"></a>
 <a href = "Reverse Engineering Study/Vases"><img src="Reverse Engineering Study/Vases.png" width="100" alt="Reverse Engineering Study/Vases.png"></a>
 <a href = "Reverse Engineering Study/Vases_01"><img src="Reverse Engineering Study/Vases_01.png" width="100" alt="Reverse Engineering Study/Vases_01.png"></a>
 <a href = "Reverse Engineering Study/Vases_01_01"><img src="Reverse Engineering Study/Vases_01_01.png" width="100" alt="Reverse Engineering Study/Vases_01_01.png"></a>

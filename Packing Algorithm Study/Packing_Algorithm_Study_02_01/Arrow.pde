@@ -1,5 +1,5 @@
-class Arrow {
-  color col;
+class Arrow implements Comparable<Arrow>{
+  int col;
   PVector pos;
   float r = 1;
   float a;
@@ -20,6 +20,11 @@ class Arrow {
     if (stillGrowing) {
       r += 2;
     }
+    
+  }
+  
+  int compareTo(Arrow arrow){
+    return int(r) - int(arrow.r);
   }
 
   void show() {
