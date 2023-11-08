@@ -1,0 +1,44 @@
+class Arrow implements Comparable<Arrow>{
+  color col;
+  PVector pos;
+  int r = 1;
+  float a;
+
+  boolean stillGrowing = true;
+
+  Arrow(float x, float y, float a_) {
+    col = colours[int(random(colours.length))];
+    a = a_;
+    pos = new PVector(x, y);
+  }
+  
+  void detectCollision(){
+    stillGrowing = false;
+  }
+
+  void update() {
+    if (stillGrowing) {
+      r += 2;
+    }
+    
+  }
+  
+  int compareTo(Arrow arrow){
+    return int(r) - int(arrow.r);
+  }
+
+  void show() {
+    //stroke(col);
+    fill(color(col,int(pow(r,1.5))+50));
+    pushMatrix();
+    translate(pos.x, pos.y);
+    rotate(a);
+    beginShape();
+    vertex(r,0);
+    vertex(0.5*r*cos(TWO_PI/3), 0.5*r*sin(TWO_PI/3));
+    vertex(0.5*r*cos(2*TWO_PI/3), 0.5*r*sin(2*TWO_PI/3));
+    endShape(CLOSE);
+    //ellipse(pos.x, pos.y, r, r);
+    popMatrix();
+  }
+}
