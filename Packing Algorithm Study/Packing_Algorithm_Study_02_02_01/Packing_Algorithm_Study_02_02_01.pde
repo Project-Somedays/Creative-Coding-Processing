@@ -79,7 +79,7 @@ void draw() {
 
 
 
-  if (frameCount ==  1200) {
+  if (frameCount ==  600) {
     saveFrame("../" + sketchname + ".png");
   }
 }
