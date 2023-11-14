@@ -12,25 +12,28 @@ color[] colours=  {#f94144, #f3722c, #f8961e, #f9844a, #f9c74f, #90be6d, #43aa8b
 
 int strWeight = 2;
 ArrayList<Bubble> bubbles;
-float maxR;
+float maxD;
+float minSize;
 
 void setup() {
-  size(1080, 1080);
-  maxR = width/10;
-  ellipseMode(RADIUS);
+  size(1000, 1000);
+  maxD = width/4;
+  minSize = width/25;
   noFill();
   strokeWeight(strWeight);
 
   // start with a random bubble out from the border with itself as parent
   bubbles = new ArrayList<Bubble>();
-  bubbles.add(new Bubble( random(0.25*width, 0.5*width), random(0.25*height, 0.5*height), new PVector(0, 0), colours[int(random(colours.length))]));
-  bubbles.add(new Bubble( random(0.25*width, 0.5*width), random(0.5*height, 0.75*height), new PVector(0, 0), colours[int(random(colours.length))]));
-  bubbles.add(new Bubble( random(0.5*width, 0.75*width), random(0.25*height, 0.5*height), new PVector(0, 0), colours[int(random(colours.length))]));
-  bubbles.add(new Bubble( random(0.5*width, 0.75*width), random(0.5*height, 0.75*height), new PVector(0, 0), colours[int(random(colours.length))]));
-  bubbles.get(0).setR(random(width/20, width/10));
-  bubbles.get(1).setR(random(width/20, width/10));
-  bubbles.get(2).setR(random(width/20, width/10));
-  bubbles.get(3).setR(random(width/20, width/10));
+  for (int i = 0; i < 6; i++) {
+    for (int j = 0; j < 6; j++) {
+      float x = width/6*(i + 0.5);
+      float y = height/6*(j+0.5);
+      bubbles.add(new Bubble(x, y, new PVector(0, 0), colours[int(random(colours.length))]));
+    }
+  }
+  for(Bubble b : bubbles){
+    b.setD(random(width/20, width/10));
+  }
 }
 
 void draw() {
@@ -38,7 +41,9 @@ void draw() {
 
   // every 20 frames, add another circle
   if (frameCount%2 == 0) {
-    spawnBubble();
+    for (int i = 0; i < 5; i++) {
+      spawnBubble();
+    }
   }
 
   //update
@@ -51,7 +56,7 @@ void draw() {
       if (i == j) {
         continue;
       }
-      if (PVector.dist(currentBubble.pos, otherBubble.pos) < currentBubble.r + otherBubble.r + 2*strWeight) {
+      if (PVector.dist(currentBubble.pos, otherBubble.pos) < 0.5*currentBubble.d + 0.5*otherBubble.d) {
         currentBubble.detectCollision();
         otherBubble.detectCollision();
       }
@@ -71,11 +76,19 @@ void spawnBubble() {
   // pick a random existing bubble
   color col = colours[int(random(colours.length))];
   int ix = int(random(bubbles.size()));
-  Bubble parent = bubbles.get(ix);
-  // get a random2D vector
-  PVector dir = PVector.random2D().setMag(parent.r+4*strWeight);
-  PVector startPos = parent.pos.copy().add(dir);
-  bubbles.add(new Bubble(startPos.x, startPos.y, dir.normalize(), col));
+  // try to find a parent of sufficient size... and still on the board
+  int attempts = 0;
+  while (attempts < 100) {
+    attempts ++;
+    Bubble parent = bubbles.get(ix);
+    if (parent.d > minSize && isStillOnScreen(parent.pos)) {
+      // get a random2D vector
+      PVector dir = PVector.random2D().setMag(parent.d/2+ 2*strWeight);
+      PVector startPos = parent.pos.copy().add(dir);
+      bubbles.add(new Bubble(startPos.x, startPos.y, dir.normalize(), col));
+      break;
+    }
+  }
 }
 
 void keyPressed() {
@@ -83,4 +96,8 @@ void keyPressed() {
     noLoop();
     saveFrame(sketchname + "_" + year()+"-"+month()+"-"+day()+"_"+hour()+"-"+minute()+"-"+second() + ".png");
   }
+}
+
+boolean isStillOnScreen(PVector pos) {
+  return pos.x > -maxD && pos.x < width + maxD && pos.y > -maxD && pos.y < height + maxD;
 }
