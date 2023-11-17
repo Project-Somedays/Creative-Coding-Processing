@@ -60,6 +60,7 @@ Creative Coding Projects written in Processing. Mostly in progress.
 <a href = "Perlin Noise Study/Perlin_Noise_Study_Wrapping1D"><img src="Perlin Noise Study/Perlin_Noise_Study_Wrapping1D.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_Wrapping1D.png"></a>
 ## [Reverse Engineering Study](Reverse%20Engineering%20Study)
 <a href = "Reverse Engineering Study/Coupled"><img src="Reverse Engineering Study/Coupled.png" width="100" alt="Reverse Engineering Study/Coupled.png"></a>
+<a href = "Reverse Engineering Study/Coupled_01"><img src="Reverse Engineering Study/Coupled_01.png" width="100" alt="Reverse Engineering Study/Coupled_01.png"></a>
 <a href = "Reverse Engineering Study/HexStack"><img src="Reverse Engineering Study/HexStack.png" width="100" alt="Reverse Engineering Study/HexStack.png"></a>
 <a href = "Reverse Engineering Study/Vases"><img src="Reverse Engineering Study/Vases.png" width="100" alt="Reverse Engineering Study/Vases.png"></a>
 <a href = "Reverse Engineering Study/Vases_01"><img src="Reverse Engineering Study/Vases_01.png" width="100" alt="Reverse Engineering Study/Vases_01.png"></a>
