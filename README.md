@@ -34,6 +34,7 @@ Creative Coding Projects written in Processing. Mostly in progress.
 <a href = "Packing Algorithm Study/Packing_Algorithm_Study_02_02"><img src="Packing Algorithm Study/Packing_Algorithm_Study_02_02.png" width="100" alt="Packing Algorithm Study/Packing_Algorithm_Study_02_02.png"></a>
 <a href = "Packing Algorithm Study/Packing_Algorithm_Study_02_02_01"><img src="Packing Algorithm Study/Packing_Algorithm_Study_02_02_01.png" width="100" alt="Packing Algorithm Study/Packing_Algorithm_Study_02_02_01.png"></a>
 <a href = "Packing Algorithm Study/Packing_Algorithm_Study_03"><img src="Packing Algorithm Study/Packing_Algorithm_Study_03.png" width="100" alt="Packing Algorithm Study/Packing_Algorithm_Study_03.png"></a>
+<a href = "Packing Algorithm Study/Packing_Algorithm_Study_03_01"><img src="Packing Algorithm Study/Packing_Algorithm_Study_03_01.png" width="100" alt="Packing Algorithm Study/Packing_Algorithm_Study_03_01.png"></a>
 ## [Paint Can Swing Emulator](Paint%20Can%20Swing%20Emulator)
 <a href = "Paint Can Swing Emulator/PaintCanSwingEmulator_01"><img src="Paint Can Swing Emulator/PaintCanSwingEmulator_01.png" width="100" alt="Paint Can Swing Emulator/PaintCanSwingEmulator_01.png"></a>
 <a href = "Paint Can Swing Emulator/PaintCanSwingEmulator_02"><img src="Paint Can Swing Emulator/PaintCanSwingEmulator_02.png" width="100" alt="Paint Can Swing Emulator/PaintCanSwingEmulator_02.png"></a>
@@ -58,6 +59,7 @@ Creative Coding Projects written in Processing. Mostly in progress.
 <a href = "Perlin Noise Study/Perlin_Noise_Study_FlowFields_01"><img src="Perlin Noise Study/Perlin_Noise_Study_FlowFields_01.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_FlowFields_01.png"></a>
 <a href = "Perlin Noise Study/Perlin_Noise_Study_Wrapping1D"><img src="Perlin Noise Study/Perlin_Noise_Study_Wrapping1D.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_Wrapping1D.png"></a>
 ## [Reverse Engineering Study](Reverse%20Engineering%20Study)
+<a href = "Reverse Engineering Study/Coupled"><img src="Reverse Engineering Study/Coupled.png" width="100" alt="Reverse Engineering Study/Coupled.png"></a>
 <a href = "Reverse Engineering Study/HexStack"><img src="Reverse Engineering Study/HexStack.png" width="100" alt="Reverse Engineering Study/HexStack.png"></a>
 <a href = "Reverse Engineering Study/Vases"><img src="Reverse Engineering Study/Vases.png" width="100" alt="Reverse Engineering Study/Vases.png"></a>
 <a href = "Reverse Engineering Study/Vases_01"><img src="Reverse Engineering Study/Vases_01.png" width="100" alt="Reverse Engineering Study/Vases_01.png"></a>
