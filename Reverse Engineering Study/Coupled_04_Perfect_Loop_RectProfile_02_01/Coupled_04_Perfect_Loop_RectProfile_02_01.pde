@@ -4,53 +4,67 @@
 String sketchname = getClass().getName();
 ArrayList<Shape> shapes;
 float yOffset, aOffset, sepOffset, dOffset; //perlin noise offsets
-float dMin, dMax, sepMin, sepMax, yMax, yMin;
+float hMin, hMax, sepMin, sepMax, yMax, yMin, wMin, wMax;
 // adjustment parameters
 float currentY, currentD, currentSep, currentA; // to load into each shape
 float globA = 0;
 float[] yField;
 float[] sepField;
-float[] dField;
+float[] hField;
+float[] wField;
 float[] aField;
+
 int ySpan;
 int currentIx;
 // colour sets
 //color[] colours = {#26547c, #ef476f, #ffd166};
 //color[] colours = {#9381ff, #b8b8ff, #f8f7ff};
 color[] colours = {#565554, #2e86ab, #f6f5ae, #f5f749, #f24236};
+//color[] colours = {color(255,0,0), color(0,0,255)};
 int loopLength;
 boolean isLooping = false;
 float spreadMultiplier = 1.5;
 
 
 void setup() {
-  size(480, 480, P2D);
+  size(1000, 500, P2D);
   stroke(0, 50);
   //noStroke();
-  dMax = height/10;
-  dMin = height/20;
-  sepMin = 2*height/20;
-  sepMax = 2*height/10;
+  hMax = height/4;
+  hMin = height/25;
+  wMax = height/25;
+  wMin = height/100;
+  
+  sepMin = height/50;
+  sepMax = height/5;
   yMax = 0.75*height;
   yMin = 0.25*height;
   ySpan = int(yMax - yMin);
-  loopLength = int(width + dMax + sepMax);
+  loopLength = int(width + hMax + sepMax);
+  
 
 
   shapes = new ArrayList<Shape>();
   background(0);
   yField = initField(loopLength, 0.25*height, 0.75*height);
-  dField = initField(loopLength, dMin, dMax);
+  hField = initField(loopLength, hMin, hMax);
+  wField = initField(loopLength, wMin, wMax);
   sepField = initField(loopLength, sepMin, sepMax);
-  aField = initField(loopLength, 0, 3*TWO_PI);
+  aField = initField(loopLength, -TWO_PI, TWO_PI);
+  rectMode(CENTER);
+  
+  //fill(255);
+  //noFill();
+  stroke(0,100);
+  strokeWeight(1);
 }
 
 void draw() {
   background(0);
 
-  if (frameCount%2 == 0) {
+  if (frameCount%1 == 0) {
     //shapes.add(new Shape(width + dMax + sepMax, yField[currentIx], dField[currentIx], sepField[currentIx], aField[currentIx]));
-    shapes.add(new Shape(width*0.9, yField[currentIx], dField[currentIx], sepField[currentIx], aField[currentIx]));
+    shapes.add(new Shape(width*0.9, yField[currentIx], wField[currentIx], hField[currentIx], sepField[currentIx], aField[currentIx]));
 
     currentIx = (currentIx + 1)%loopLength; // loops
   }
