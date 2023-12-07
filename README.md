@@ -5,6 +5,9 @@ Creative Coding Projects written in Processing. Mostly in progress.
 ## [Casey_Reas_Study](Casey_Reas_Study)
 <a href = "Casey_Reas_Study/Casey_Reas_Study_01"><img src="Casey_Reas_Study/Casey_Reas_Study_01.png" width="100" alt="Casey_Reas_Study/Casey_Reas_Study_01.png"></a>
 <a href = "Casey_Reas_Study/Casey_Reas_Study_01_01"><img src="Casey_Reas_Study/Casey_Reas_Study_01_01.png" width="100" alt="Casey_Reas_Study/Casey_Reas_Study_01_01.png"></a>
+<a href = "Casey_Reas_Study/Casey_Reas_Study_01_02"><img src="Casey_Reas_Study/Casey_Reas_Study_01_02.png" width="100" alt="Casey_Reas_Study/Casey_Reas_Study_01_02.png"></a>
+<a href = "Casey_Reas_Study/Casey_Reas_Study_01_03"><img src="Casey_Reas_Study/Casey_Reas_Study_01_03.png" width="100" alt="Casey_Reas_Study/Casey_Reas_Study_01_03.png"></a>
+<a href = "Casey_Reas_Study/Casey_Reas_Study_01_04_Staggered"><img src="Casey_Reas_Study/Casey_Reas_Study_01_04_Staggered.png" width="100" alt="Casey_Reas_Study/Casey_Reas_Study_01_04_Staggered.png"></a>
 ## [Geometrical_Study](Geometrical_Study)
 <a href = "Geometrical_Study/Geometrical_Study_01"><img src="Geometrical_Study/Geometrical_Study_01.png" width="100" alt="Geometrical_Study/Geometrical_Study_01.png"></a>
 <a href = "Geometrical_Study/PinWheel"><img src="Geometrical_Study/PinWheel.png" width="100" alt="Geometrical_Study/PinWheel.png"></a>
@@ -60,6 +63,8 @@ Creative Coding Projects written in Processing. Mostly in progress.
 <a href = "Perlin Noise Study/Perlin_Noise_Study_02"><img src="Perlin Noise Study/Perlin_Noise_Study_02.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_02.png"></a>
 <a href = "Perlin Noise Study/Perlin_Noise_Study_02_01"><img src="Perlin Noise Study/Perlin_Noise_Study_02_01.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_02_01.png"></a>
 <a href = "Perlin Noise Study/Perlin_Noise_Study_FlowFields_01"><img src="Perlin Noise Study/Perlin_Noise_Study_FlowFields_01.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_FlowFields_01.png"></a>
+<a href = "Perlin Noise Study/Perlin_Noise_Study_Topography"><img src="Perlin Noise Study/Perlin_Noise_Study_Topography.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_Topography.png"></a>
+<a href = "Perlin Noise Study/Perlin_Noise_Study_Topography_01_01"><img src="Perlin Noise Study/Perlin_Noise_Study_Topography_01_01.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_Topography_01_01.png"></a>
 <a href = "Perlin Noise Study/Perlin_Noise_Study_Wrapping1D"><img src="Perlin Noise Study/Perlin_Noise_Study_Wrapping1D.png" width="100" alt="Perlin Noise Study/Perlin_Noise_Study_Wrapping1D.png"></a>
 ## [Reverse Engineering Study](Reverse%20Engineering%20Study)
 <a href = "Reverse Engineering Study/Coupled"><img src="Reverse Engineering Study/Coupled.png" width="100" alt="Reverse Engineering Study/Coupled.png"></a>
