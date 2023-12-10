@@ -12,13 +12,18 @@ int maxHeightDiff = 5;
 
 void setup() {
   size(1080, 1080);
-  maxSep = width/5;
-  field = new float[width][height];
+  maxSep = width/10;
+  //colorMode(HSB,360,100,100);
+  
+  // init pts
   pts = new PVector[n];
   for(int i = 0; i < n; i++){
     pts[i] = new PVector(random(width), random(height));
   }
   yOff = 0;
+  
+  // init field
+  field = new float[width][height];
   for (int i = 0; i < width; i++) {
     xOff = 0;
     for (int j = 0; j < height; j++) {
@@ -27,14 +32,15 @@ void setup() {
     }
     yOff += step;
   }
-  fill(255,10);
-  noStroke();
+ 
+  stroke(255,150);
 
   background(0);
 
   fill(255);
   for(int i = 0; i < n; i++){
-    for(int j = i; j < n; i++){
+    for(int j = i; j < n; j++){
+      // skip self checks
       if(i == j){
         continue;
       }
@@ -46,6 +52,13 @@ void setup() {
       if(isInDifferentHeightBand(pts[i], pts[j])){
         continue;
       }
+      //int shade = int(map(getTopography(pts[i]),0,100, 360, 0));
+      int shade = int(map(getTopography(pts[i]),0,100, 0, 255));
+      int strokeThick = int(map(getTopography(pts[i]),0,100,00.5,2));
+      strokeWeight(strokeThick);
+      //stroke(shade,100,100);
+      stroke(shade);
+      line(pts[i].x, pts[i].y, pts[j].x, pts[j].y);
     }
   }
 }

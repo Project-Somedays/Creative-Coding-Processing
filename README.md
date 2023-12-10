@@ -8,6 +8,8 @@ Creative Coding Projects written in Processing. Mostly in progress.
 <a href = "Casey_Reas_Study/Casey_Reas_Study_01_02"><img src="Casey_Reas_Study/Casey_Reas_Study_01_02.png" width="100" alt="Casey_Reas_Study/Casey_Reas_Study_01_02.png"></a>
 <a href = "Casey_Reas_Study/Casey_Reas_Study_01_03"><img src="Casey_Reas_Study/Casey_Reas_Study_01_03.png" width="100" alt="Casey_Reas_Study/Casey_Reas_Study_01_03.png"></a>
 <a href = "Casey_Reas_Study/Casey_Reas_Study_01_04_Staggered"><img src="Casey_Reas_Study/Casey_Reas_Study_01_04_Staggered.png" width="100" alt="Casey_Reas_Study/Casey_Reas_Study_01_04_Staggered.png"></a>
+## [Coding_Challenges](Coding_Challenges)
+<a href = "Coding_Challenges/Coding_Challenges_01_Improbabe_Architecture"><img src="Coding_Challenges/Coding_Challenges_01_Improbabe_Architecture.png" width="100" alt="Coding_Challenges/Coding_Challenges_01_Improbabe_Architecture.png"></a>
 ## [Geometrical_Study](Geometrical_Study)
 <a href = "Geometrical_Study/Geometrical_Study_01"><img src="Geometrical_Study/Geometrical_Study_01.png" width="100" alt="Geometrical_Study/Geometrical_Study_01.png"></a>
 <a href = "Geometrical_Study/PinWheel"><img src="Geometrical_Study/PinWheel.png" width="100" alt="Geometrical_Study/PinWheel.png"></a>
@@ -97,15 +99,18 @@ Creative Coding Projects written in Processing. Mostly in progress.
 ## [Streak Art](Streak%20Art)
 <a href = "Streak Art/Streak_Art_01"><img src="Streak Art/Streak_Art_01.png" width="100" alt="Streak Art/Streak_Art_01.png"></a>
 <a href = "Streak Art/Streak_Art_02"><img src="Streak Art/Streak_Art_02.png" width="100" alt="Streak Art/Streak_Art_02.png"></a>
-## [Tilings](Tilings)
-<a href = "Tilings/HexTiling_01"><img src="Tilings/HexTiling_01.png" width="100" alt="Tilings/HexTiling_01.png"></a>
-<a href = "Tilings/HexTiling_02"><img src="Tilings/HexTiling_02.png" width="100" alt="Tilings/HexTiling_02.png"></a>
-<a href = "Tilings/HexTiling_03"><img src="Tilings/HexTiling_03.png" width="100" alt="Tilings/HexTiling_03.png"></a>
-<a href = "Tilings/HexTiling_04"><img src="Tilings/HexTiling_04.png" width="100" alt="Tilings/HexTiling_04.png"></a>
-<a href = "Tilings/HexTiling_05"><img src="Tilings/HexTiling_05.png" width="100" alt="Tilings/HexTiling_05.png"></a>
-<a href = "Tilings/Tilings_01"><img src="Tilings/Tilings_01.png" width="100" alt="Tilings/Tilings_01.png"></a>
-<a href = "Tilings/Tilings_01_01"><img src="Tilings/Tilings_01_01.png" width="100" alt="Tilings/Tilings_01_01.png"></a>
-<a href = "Tilings/Tilings_01_02"><img src="Tilings/Tilings_01_02.png" width="100" alt="Tilings/Tilings_01_02.png"></a>
+## [Tilings Study](Tilings%20Study)
+<a href = "Tilings Study/HexTiling_01"><img src="Tilings Study/HexTiling_01.png" width="100" alt="Tilings Study/HexTiling_01.png"></a>
+<a href = "Tilings Study/HexTiling_02"><img src="Tilings Study/HexTiling_02.png" width="100" alt="Tilings Study/HexTiling_02.png"></a>
+<a href = "Tilings Study/HexTiling_03"><img src="Tilings Study/HexTiling_03.png" width="100" alt="Tilings Study/HexTiling_03.png"></a>
+<a href = "Tilings Study/HexTiling_04"><img src="Tilings Study/HexTiling_04.png" width="100" alt="Tilings Study/HexTiling_04.png"></a>
+<a href = "Tilings Study/HexTiling_05"><img src="Tilings Study/HexTiling_05.png" width="100" alt="Tilings Study/HexTiling_05.png"></a>
+<a href = "Tilings Study/HexTiling_06_Stacks_1"><img src="Tilings Study/HexTiling_06_Stacks_1.png" width="100" alt="Tilings Study/HexTiling_06_Stacks_1.png"></a>
+<a href = "Tilings Study/HexTiling_06_Stacks_2"><img src="Tilings Study/HexTiling_06_Stacks_2.png" width="100" alt="Tilings Study/HexTiling_06_Stacks_2.png"></a>
+<a href = "Tilings Study/HexTiling_06_Stacks_3"><img src="Tilings Study/HexTiling_06_Stacks_3.png" width="100" alt="Tilings Study/HexTiling_06_Stacks_3.png"></a>
+<a href = "Tilings Study/Tilings_01"><img src="Tilings Study/Tilings_01.png" width="100" alt="Tilings Study/Tilings_01.png"></a>
+<a href = "Tilings Study/Tilings_01_01"><img src="Tilings Study/Tilings_01_01.png" width="100" alt="Tilings Study/Tilings_01_01.png"></a>
+<a href = "Tilings Study/Tilings_01_02"><img src="Tilings Study/Tilings_01_02.png" width="100" alt="Tilings Study/Tilings_01_02.png"></a>
 ## [Tribesmen](Tribesmen)
 <a href = "Tribesmen/Tribesman_01"><img src="Tribesmen/Tribesman_01.png" width="100" alt="Tribesmen/Tribesman_01.png"></a>
 <a href = "Tribesmen/Tribesman_02"><img src="Tribesmen/Tribesman_02.png" width="100" alt="Tribesmen/Tribesman_02.png"></a>
