@@ -12,6 +12,9 @@ Creative Coding Projects written in Processing. Mostly in progress.
 <a href = "Coding_Challenges/Coding_Challenges_01_Improbabe_Architecture"><img src="Coding_Challenges/Coding_Challenges_01_Improbabe_Architecture.png" width="100" alt="Coding_Challenges/Coding_Challenges_01_Improbabe_Architecture.png"></a>
 <a href = "Coding_Challenges/Improbable_Architecture"><img src="Coding_Challenges/Improbable_Architecture.png" width="100" alt="Coding_Challenges/Improbable_Architecture.png"></a>
 <a href = "Coding_Challenges/Improbable_Architecture_02"><img src="Coding_Challenges/Improbable_Architecture_02.png" width="100" alt="Coding_Challenges/Improbable_Architecture_02.png"></a>
+<a href = "Coding_Challenges/WCCChallenge_Arcs2_01"><img src="Coding_Challenges/WCCChallenge_Arcs2_01.png" width="100" alt="Coding_Challenges/WCCChallenge_Arcs2_01.png"></a>
+<a href = "Coding_Challenges/WCCChallenge_Arcs2_02"><img src="Coding_Challenges/WCCChallenge_Arcs2_02.png" width="100" alt="Coding_Challenges/WCCChallenge_Arcs2_02.png"></a>
+<a href = "Coding_Challenges/WCCChallenge_Arcs_01"><img src="Coding_Challenges/WCCChallenge_Arcs_01.png" width="100" alt="Coding_Challenges/WCCChallenge_Arcs_01.png"></a>
 ## [Geometrical_Study](Geometrical_Study)
 <a href = "Geometrical_Study/Geometrical_Study_01"><img src="Geometrical_Study/Geometrical_Study_01.png" width="100" alt="Geometrical_Study/Geometrical_Study_01.png"></a>
 <a href = "Geometrical_Study/PinWheel"><img src="Geometrical_Study/PinWheel.png" width="100" alt="Geometrical_Study/PinWheel.png"></a>
